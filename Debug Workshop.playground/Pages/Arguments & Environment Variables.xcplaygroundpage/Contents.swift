@@ -21,6 +21,9 @@ import Foundation
 -AppleLanguages (es de)
 
 //Environement Variable:
+
+//It gives you a clean log and will hide system messages from you
+OS_ACTIVITY_MODE disable
 // To enable or disable a Foundation debugging facility, you must set the value of the environment variable to "YES" or "NO", not 1 or 0 as is the case with other system components.
 //If set to YES, deallocated objects are 'zombified'; this allows you to quickly debug problems where you send a message to an object that has already been freed.
 NSZombieEnabled
