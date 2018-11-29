@@ -1,0 +1,16 @@
+Hello, great work so far! And since you can see this now, you should try to print all properties of the class CustomView. You can get all properties with the following code snippet:
+
+func getAllPropertis() {
+        var count: CUnsignedInt = 0
+        let ivarList = class_copyIvarList(UICollecttionView.self, &count)
+        for i in (0..<Int(count)) {
+            if let unwrapped = ivarList?[i], let ivar = ivar_getName(unwrapped), let typeEncoding = ivar_getTypeEncoding(unwrapped) {
+                let propertyName = String(cString: ivar)
+                let typeEncoding = String(cString: typeEncoding)
+                print("Property:\(propertyName), Type:\(typeEncoding)")
+            } }
+        free(ivarList)
+} 
+
+you need to adjust the code above to work with CustomView and then toggle one of the variables :) oh you might also wonder how to add an entire block.
+Well lldb has something called the repl. Just type in repl add the code and call it!

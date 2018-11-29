@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' executeOnSourceChanges='false'>
+    <pages>
+        <page name='LLDB'/>
+        <page name='CodeSnippets'/>
+        <page name='General Approaches'/>
+        <page name='Arguments &amp; Environment Variables'/>
+        <page name='Symbolic breakpoints'/>
+    </pages>
+</playground>
