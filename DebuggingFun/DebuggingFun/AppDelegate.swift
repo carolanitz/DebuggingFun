@@ -25,7 +25,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
         }
 
-        if let customeView = NSApplication.shared.keyWindow?.contentView as? CustomView {
+        if let customeView = window.contentView as? CustomView {
             customeView.changeLabel()
         }
     }

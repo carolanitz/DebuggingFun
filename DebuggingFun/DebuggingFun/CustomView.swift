@@ -23,7 +23,7 @@ public class CustomView: NSView {
                 self.youShouldOpenTheFileNamedInstructionByPrintingThePathVar()
                 if (self.secretHiddenVarThatYouNeedToChange && !self.hashitHint) {
 
-                    print("Uh some Images have shown up. Can you find out how to change UI elements and see the result without continuing? Hint after changing UI use CATransAction.flush()")
+                    print("Uh some Images have shown up. Use the aquired knowledge and find out how to change UI elements and see the result without continuing. Hint after changing UI use CATransaction.flush()")
                     self.hashitHint = true
                     DispatchQueue.main.async {
                         self.hiddenImage?.isHidden = false
