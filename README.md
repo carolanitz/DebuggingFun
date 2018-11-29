@@ -14,5 +14,5 @@ If you don't you are more than welcome to switch to Xcode and use lldb in there.
 The Debug Workshop.playground file will come in handy if you want to look up lldb commands.
 It also contains a collection of arguments, symbolic breakpoints to look through and try out
 
-## Tools nhat help with everyday work
+## Tools that help with everyday work
 There are also some Applications in this repository that you can look at and try out!
